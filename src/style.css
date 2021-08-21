@@ -1,0 +1,10 @@
+#display-block {
+  display: block;
+}
+#display-none {
+  display: none;
+}
+span {
+  display: block;
+  font-size: 25px;
+}
