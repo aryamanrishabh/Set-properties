@@ -47,24 +47,6 @@ const Result = () => {
           </tr>
         </tbody>
       </table>
-      {/* <div>
-        <span>
-          <strong>Only present in A:</strong>
-          {` ${onlyA.join(", ")}`}
-        </span>
-        <span>
-          <strong>Only present in B:</strong>
-          {` ${onlyB.join(", ")}`}
-        </span>
-        <span>
-          <strong>Present in both A & B (intersection):</strong>
-          {` ${intersection.join(", ")}`}
-        </span>
-        <span>
-          <strong>Combining A & B (union):</strong>
-          {` ${union.join(", ")}`}
-        </span>
-      </div> */}
       <div className="text-center">
         <button onClick={goBackHandler} className="btn btn-success">
           Reset
